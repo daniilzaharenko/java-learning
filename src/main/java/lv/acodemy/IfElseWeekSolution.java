@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IfElseWeekSolution {
     public static void main(String[] args) {
         // dz pro dni nedeli
-        Scanner myScanner;
+        Scanner myScanner = new Scanner(System.in);
         String userInput = myScanner.next();
 
         switch (userInput) {
